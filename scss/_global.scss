@@ -1,0 +1,40 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+a{
+  color: #b9b9b9;
+  text-decoration: none;
+}
+
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $text;
+  font-family: 'Bebas Neue';
+  font-size: 16px;
+  background-image: url('../images/bg.png');
+  // background: #000;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container{
+  max-width: 970px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
